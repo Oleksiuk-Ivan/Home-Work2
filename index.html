@@ -26,8 +26,8 @@
     border-bottom: 2px solid black;
    }
   </style>
-                <table>
-                <tr>
+            <table>
+            <tr>
                 <th>Name</th> 
                 <th>Sec. name</th>
                 <th>Phone number</th>
@@ -51,41 +51,40 @@
                  <td>103</td>
                  <td>103@email.com</td>
              </tr>
-             
-         </table>
+             </table>
          
        <form action="">
-           <p><input type="text" id="name" placeholder="Введіть ваше ім'я"></p>
-           <p><input type="text" id="secondname" placeholder="Введіть вашу фамілію"></p>
+           <div><input type="text" id="name" placeholder="Введіть ваше ім'я"></div>
+           <div><input type="text" id="secondname" placeholder="Введіть вашу фамілію"></div>
            
-           <class="radio">
-           <span>Ваша стать</span>
+            <span>Ваша стать</span>
             <label>
-            <p><input type="radio" name="sex" value="чоловіча" checked>Чоловіча</p>
-            <div><class="radio-control male"></div>
+            <div>
+            <input type="radio" name="sex" value="чоловіча" checked>Чоловіча
+            <class="radio-control male"></div>
             </label>
             <label>
             <input type="radio" name="sex" value="жіноча">Жіноча
             <class="radio-control female"></div>
             </label>
            
-            <p><textarea name="coments" id="" cols="70" rows="10" placeholder="Пишіть свої питання, але не чекайте на відповіді"></textarea>
-            </p>
+            <div><textarea name="coments" cols="70" rows="10" placeholder="Пишіть свої питання, але не чекайте на відповіді"></textarea>
+            </div>
        
-            <p><select name="Towns" id="City">
+            <div><select name="Towns" id="City">
             <option disabled selected value="">Виберіть місто</option>
             <option value="New-York">New-York</option>
             <option value="London">London</option>
             <option value="Tokio">Tokio</option>
             <option value="Жашків">Жашків</option>
             </select>
-            </p>
+            </div>
         
          <p>Вибір мови:</p>
-         <p><input type="checkbox">Рідна</p>
-         <p><input type="checkbox">Чужа</p>
-         <p><input type="checkbox">Незрозуміла</p>
-         <p><button>Відправити</button></p>
+         <div><input type="checkbox">Рідна</div>
+         <div><input type="checkbox">Чужа</div>
+         <div><input type="checkbox">Незрозуміла</div>
+         <div><button>Відправити</button></div>
            
         </form>
             
